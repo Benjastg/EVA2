@@ -1,0 +1,287 @@
+html, body, h1, h2, h3, h4, ol, ul, li, a, p{
+    margin: 0;
+    padding: 0;
+    font-family: Calibri, Arial;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+.presentacion {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+h1, h2 {
+    color: #333;
+}
+p {
+    color: #666;
+    line-height: 1.6;
+}
+
+.espacioHeader{
+    padding-left: 200px;
+}
+header{
+    background-color: brown;
+    height: 38px;
+    padding-top: 10px;
+    padding-left: 50px;
+
+}
+header a{
+    background-color: rgb(192, 31, 125);
+    font-size:20px;
+    color: white;
+    text-decoration: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 14px;
+}
+.espacioEnlace1{
+    padding-left: 1500px;
+}
+.espacioLogo{
+    padding-top: 5px;
+    padding-left: 105px;
+    float: left;
+}
+#nav1{
+    height: 65px;
+    background-color: whitesmoke;
+}
+#nav1 a{
+    text-decoration: none;
+    font-size: 26px;
+    color:rgb(127, 150, 255);
+    text-align: center;
+    padding-right: 50px;
+}
+#nav1 ul{
+    float: left;
+    padding-top: 15px;
+
+}
+#nav1 ul li{
+    display:inline;
+}
+#nav1 ul li a:hover{
+    background-color: rgb(158, 100, 30);
+    color:black
+}
+
+
+#contenedor2{
+    float: left;
+    margin-top: 10px;
+    margin-left: 250px;
+}
+#contenedor2 h2{
+    color: white;
+    margin-bottom: 10px;
+}
+.caja13{
+    border: 1px solid black;
+    width: 250px;
+    height: 200px;
+    padding: 20px;
+    background-color: rgb(126, 53, 27);
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.caja2{
+    border: 1px solid black;
+    width: 250px;
+    height: 200px;
+    padding: 20px;
+    background-color:  rgb(168, 58, 58);
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#contenedor2 img{
+    width: 100%;
+}
+#contenedor2 ul{
+    list-style: none;
+    text-decoration: none;
+}
+#contenedor2 a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+#contenedor2 a:hover{
+    color: orangered;
+}
+
+/*login.html*/
+
+
+.titulo {
+    text-align: center;
+    margin-right: 480px;
+}
+
+.pie {
+    text-align: center;
+}
+
+header h1{
+    font-size: 3rem;
+    font-weight: 600;
+    color: black;
+    position: relative;
+    padding: none;
+    left: 350px;
+}
+main {
+    position: relative;
+    top: 20px;
+    left: 400px;
+    width: 350px;
+    height: 350px;
+    font-size: 30px;
+}
+main input {
+    width:200%;
+    padding:5px 10px;
+    box-sizing: border-box;
+}
+
+main button {
+    width:100%;
+    position: relative;
+    left: 100px;
+    top:25px;
+    height: 30%;
+    padding:5px 10px;
+}
+
+/*galeria.html*/
+body .jk{
+    position: relative;
+    top: 10px;
+    left: -400px;
+}
+
+body .jk img{
+    position: relative;
+    top: 0px;
+    left: 40px;
+}
+body .bnh{
+    position: relative;
+    top: 100px;
+    left: 200px;
+}
+body .bnh img{  
+    position: relative;
+    top: 0px;
+    left: 40px;
+}
+body .gnh{
+    position: relative;
+    top: 200px;
+    left: 200px;
+}
+
+body .gnh img{
+    position: relative;
+    top: 0px;
+    left: 40px;
+}
+
+body .pou{
+    position: relative;
+    top: -350px;
+    left: -400px;
+}
+
+body .pou img{
+    position: relative;
+    top: 0px;
+    left: 40px;
+}
+
+#contenedorgaleria{
+    background-color: rgb(136, 136, 30);
+}
+#contenedorgaleria table{
+    background-color: white;
+}
+#contenedorgaleriatable{
+    font-size: 30px;
+    background-color: grey;
+}
+#contenedorgaleria table th label{
+    font-size: 20px;
+    color: grey;
+
+}
+#contenedorgaleria table td label{
+    font-size: 25px;
+}
+#conteendorgaleria a{
+    color: white;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 18px;
+}
+.camposForm{
+    font-size: 40px;
+    border-color:black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.espaciosForm{
+    padding-top: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.boton{
+    font-size: 28px;
+    background-color: crimson;
+    color: white;
+    margin-top: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 150px;
+    padding-right: 150px;
+
+}
+.foto {
+    padding-top: 100px;
+    padding-left: 100px;
+}
+#contenedor{
+    text-align: center;
+}
+
+.mainImg{
+    position: relative;
+    padding-top: 100px;
+    width: 50%;
+    height: 200px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    padding-left: 420px;
+  }
+
+  .mainImg img {
+    position: absolute;
+    clip: rect(50px, 150px, 150px, 50px);
+  }
