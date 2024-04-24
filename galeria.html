@@ -4,64 +4,145 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Index</title>
-    <link href="css/estilos.css" rel="stylesheet"> </linkl>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="css/estilos.css" rel="stylesheet">
 </head>
-<body>
-    <header class="espacioHeader">
-        <a href="index.html">CineHigh</a>
-    </header>
-    <nav id="nav1">
-        <img src="Imagenes/asd2.png" class="espacioLogo" style="position: absolute; top: 10px; left: -100px;" width="200">>
-        <ul class=espacioEnlace1>
-            <li> <a href="login.html" >Iniciar Sesion</a> </li>
-            <li> <a href="galeria.html">Galeria</a> </li>
-        </ul>
+<body style="background-color:#E6E6FA;">
+    <nav class="navbar navbar-expand-lg bg-body">
+        <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+            <img src="Imagenes/asd2.png" class="logotipo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+            <a class="nav-link active fw-bold" aria-current="page" href="index.html">CineHigh</a>
+            <a class="nav-link fw-bold" href="login.html">Iniciar Sesion</a>
+            <a class="nav-link fw-bold" href="galeria.html">Galeria</a>
+            </div>
+        </div>
+        </div>
     </nav>
-    <div id="contenedor">
-        <img src="Imagenes/2x1-claro.webp" class="mainImg">
-        <h1>Entradas 2x1 pagando con tu app claro</h1>
-    </div>
+    </nav>
+</div>
 
-    <div id="contenedor">
-        <form>
-            <tr>
-                <td>
-                    <div class="bnh">
-                        <h3>Pelicula: Kung Fu Panda 4</h3>
-                        <h3>Valor: 4.990</h3>
-                        <img src="Imagenes/Kung fu panda 4.jpg" width="150" height="150" alt="No enconrado"/>
-                        <h3>Cantidad:<input type="number"></h3>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <div class="gnh">
-                        <h3>Pelicula: El Nuevo Imperio</h3>
-                        <h3>Valor: 6.990</h3>
-                        <img src="Imagenes/GodzillaxKong.jpg" width="150" height="150" alt="No enconrado"/>
-                        <h3>Cantidad:<input type="number"></h3>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <div class="pou">
-                        <h3>Pelicula: Pou 2</h3>
-                        <h3>Valor: 8.990</h3>
-                        <img src="Imagenes/Pou2.webp" width="150" height="150" alt="No enconrado"/>
-                        <h3>Cantidad:<input type="number"></h3>
-                    </div>
-                </td>
-            </tr>
-        </form>
+<div id="carouselExampleIndicators" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
     </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="Imagenes/carrusel1.jpg" class="d-block w-100" alt="Banner1">
+      </div>
+      <div class="carousel-item ">
+        <img src="Imagenes/carrousel2.jpg" class="d-block w-100" alt="Banner2">
+      </div>
+      <div class="carousel-item ">
+        <img src="Imagenes/carrousel3.jpg" class="d-block w-100" alt="Banner3">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
 
-    <div class="pie">
-        <footer>
-            <p>Sitio Desarrollado por: Benjamin Gacitua</p>
-        </footer>
-    </div>  
+    <br>
+
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="Imagenes/elnuevoimperio.webp" class="card-img-top productos" alt="...">
+            <div class="card-body">
+              <h5 class="card-title fw-bold pie">El Nuevo Imperio</h5>
+              <p class="card-text fw-bold pie">Precio: $4.990</p>
+            </div>
+            <div class="card-footer pie">
+                <h3>Cantidad:<input type="number"></h3>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="Imagenes/Pou2.webp" class="card-img-top productos" alt="...">
+            <div class="card-body">
+              <h5 class="card-title fw-bold pie">Pou2</h5>
+              <p class="card-text fw-bold pie">Precio: $7.990</p>
+            </div>
+            <div class="card-footer pie">
+                <h3>Cantidad:<input type="number"></h3>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="Imagenes/Kung fu panda 4.jpg" class="card-img-top productos" alt="...">
+            <div class="card-body">
+              <h5 class="card-title fw-bold pie">Kung Fu panda 4</h5>
+              <p class="card-text fw-bold pie">Preico: $4990</p>
+            </div>
+            <div class="card-footer pie">
+                <h3>Cantidad:<input type="number"></h3>
+
+            </div>
+          </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+              <img src="Imagenes/insideout2.webp" class="card-img-top productos" alt="...">
+              <div class="card-body pie">
+                <h5 class="card-title fw-bold pie ">Intensamente 2</h5>
+                <p class="card-text fw-bold pie">Precio: $5990</p>
+              </div>
+              <div class="card-footer pie">
+                <h3>Cantidad:<input type="number"></h3>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="Imagenes/aracnidos.jpg" class="card-img-top productos" alt="...">
+              <div class="card-body">
+                <h5 class="card-title fw-bold pie">Aracnidos</h5>
+                <p class="card-text fw-bold pie">$5.990</p>
+              </div>
+              <div class="card-footer pie">
+                <h3>Cantidad:<input type="number"></h3>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="Imagenes/abigail.jpg" class="card-img-top productos" alt="...">
+              <div class="card-body pie">
+                <h5 class="card-title fw-bold pie">Abigail</h5>
+                <p class="card-text fw-bold pie">$4.990</p>
+              </div>
+              <div class="card-footer pie">
+                <h3>Cantidad:<input type="number"></h3>
+              </div>
+            </div>
+          </div>
+      </div>
+
+      <br>
+
+      <footer>
+        <nav class="pie">
+          <ul>
+            <a>Asignatura: Programacion Front-End</a>
+          </ul>
+        </nav>
+    </footer> 
 
 </body>
 </html>

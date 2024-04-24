@@ -122,8 +122,48 @@ header a{
 }
 #contenedor2 a:hover{
     color: orangered;
+
 }
 
+.fotonoticia{
+    width: 80%;
+    height: 300px;
+}
+
+.fondoacerca{
+
+      
+    background-color:   white; 
+    padding: 20px; 
+
+      
+    color: #333; 
+     
+    text-align: center;
+      
+    color: #666;
+    
+}
+
+.colorfondo {
+    background-color: #F5F5F5;
+    padding: 10px;
+    }
+
+.centered-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 50vh; 
+    margin: 0; 
+    }
+
+.circle-img {
+    border-radius: 50%; /* Hace que la imagen sea circular */
+    object-fit: cover; /* Asegura que la imagen cubra completamente el área sin distorsionar su aspecto */
+    width: 150px; 
+    height: 150px; 
+ }
 /*login.html*/
 
 
@@ -171,7 +211,7 @@ main button {
 body .jk{
     position: relative;
     top: 10px;
-    left: -400px;
+    left: -600px;
 }
 
 body .jk img{
@@ -182,7 +222,7 @@ body .jk img{
 body .bnh{
     position: relative;
     top: 100px;
-    left: 200px;
+    left: 800px;
 }
 body .bnh img{  
     position: relative;
@@ -203,8 +243,8 @@ body .gnh img{
 
 body .pou{
     position: relative;
-    top: -350px;
-    left: -400px;
+    top: -400px;
+    left: 200px;
 }
 
 body .pou img{
@@ -284,4 +324,15 @@ body .pou img{
   .mainImg img {
     position: absolute;
     clip: rect(50px, 150px, 150px, 50px);
+  }
+
+  .logotipo{
+    width: 150px;
+  }
+
+  .productos{
+    width: 80%;
+    height: 300px;
+    padding: 20px;
+    padding-left: 150px;
   }

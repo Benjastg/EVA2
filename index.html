@@ -4,115 +4,150 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Index</title>
-    <link href="css/estilos.css" rel="stylesheet"> </linkl>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="css/estilos.css" rel="stylesheet">
 </head>
-<body>
-    <nav class="espacioHeader">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">Navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="index.html">CineHigh</a>
-              <a class="nav-link" href="login.html">Iniciar Sesion</a>
-              <a class="nav-link" href="galeria.html">Galeria</a>
+<body style="background-color:#E6E6FA;">
+    <div class="">
+        <nav class="navbar navbar-expand-lg bg-body">
+            <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="Imagenes/asd2.png" class="logotipo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                <a class="nav-link active fw-bold" aria-current="page" href="index.html">CineHigh</a>
+                <a class="nav-link fw-bold" href="login.html">Iniciar Sesion</a>
+                <a class="nav-link fw-bold" href="galeria.html">Galeria</a>
+                </div>
             </div>
+            </div>
+        </nav>
+        </nav>
+    </div>
+
+
+    <!---Inicio Banner de promociones-->
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="Imagenes/promocion1.jpg" class="d-block w-100" alt="Banner1">
+          </div>
+          <div class="carousel-item ">
+            <img src="Imagenes/promo2.jpg" class="d-block w-100" alt="Banner2">
+          </div>s
+          <div class="carousel-item ">
+            <img src="Imagenes/carrousel3.jpg" class="d-block w-100" alt="Banner3">
           </div>
         </div>
-      </nav>
-    </nav>
-    <div id="contenedor">   
-        <img src="Imagenes/2x1-claro.webp" class="mainImg">
-        <h1>Entradas 2x1 comprando desde tu app claro</h1>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    <!--Fin de banner de promociones-->
+    <!--Inicio acerca de-->
+
+    <div class="fondoacerca">
+        <h1>CineHigh Donde la magia del cine cobra vida</h1>
+        <br>
+        <p> Bienvenido a CineHigh, el destino definitivo para los amantes del cine en busca de una experiencia única y emocionante. Situado en el corazón de la ciudad, CineHigh es mucho más que un simple cine; es un santuario para los cinéfilos que buscan sumergirse en la magia del séptimo arte.
+            
+            Experiencia Cinematográfica Inigualable
+            
+            En CineHigh, cada película se convierte en una experiencia inolvidable. Con nuestras modernas instalaciones y equipos de última generación, garantizamos una calidad de proyección y sonido que te dejará sin aliento. Sumérgete en la pantalla gigante y déjate transportar a mundos extraordinarios y emocionantes.</p>
+        <p>No dudes en ponerte en contacto con nosotros para obtener más información.</p>
+      </div>
+    <!--Fin acerca de-->
+
+      <br>
+    <!--Inicio noticias-->
+
+    <div class="container colorfondo">
+        <!-- Noticia 1 -->
+        <div class="row my-3 ">
+            <div class="col-md-6">
+                <img src="Imagenes/CabritasHigh.jpg" alt="Descripción de la imagen 1" class="fotonoticia">
+            </div>
+            <div class="col-md-6">
+                <h2>Pop Corn a mitad de precio</h2>
+                <p>¡No esperes más para disfrutar de tu película favorita con popcorn a mitad de precio en CineHigh! Ven y únete a nosotros para una experiencia cinematográfica inolvidable llena de diversión, emoción y, por supuesto, popcorn delicioso.
+
+                    Esta oferta es por tiempo limitado, así que asegúrate de visitarnos pronto y aprovechar al máximo esta oportunidad increíble. ¡Nos vemos en CineHigh, donde la magia del cine y el sabor del popcorn se combinan para crear recuerdos inolvidables!</p>
+            </div>
+        </div>
+
+        <!-- Noticia 2 -->
+        <div class="row my-3">
+            <div class="col-md-6">
+                <h2>Regalos Exclusivos</h2>
+                <p>¡Prepárate para sumergirte en el emocionante mundo de Kung Fu Panda 4 y llevarte a casa recuerdos inolvidables! CineHigh, el destino cinematográfico definitivo, se complace en anunciar una oferta especial para todos los fanáticos de Po y sus amigos. En colaboración con DreamWorks Animation, hemos preparado una selección de regalos exclusivos inspirados en la esperada película Kung Fu Panda 4.
+
+                    Desde figuras coleccionables hasta accesorios temáticos, estos regalos te permitirán llevar la magia de Kung Fu Panda a casa y revivir las aventuras una y otra vez. ¡Y lo mejor de todo es que solo estarán disponibles en CineHigh!
+                </p>
+            </div>
+            <div class="col-md-6">
+                <img src="Imagenes/PromoKungfu.jpg" alt="Descripción de la imagen 2" class="fotonoticia">
+            </div>
+        </div>
+
+        <!-- Noticia 3 -->
+        <div class="row my-3">
+            <div class="col-md-6">
+                <img src="Imagenes/elnuevoimperio.webp" alt="Descripción de la imagen 3" class="fotonoticia">
+            </div>
+            <div class="col-md-6">
+                <h2>El nuevo Imperio</h2>
+                <p>¡Estreno Exclusivo! ¡El Nuevo Imperio: Godzilla y Kong Unen Fuerzas para Vencer a Scar, Solo en CineHigh!
+
+                    ¡Prepárate para presenciar una alianza inimaginable que desafiará todas las expectativas en la pantalla grande! CineHigh se enorgullece en presentar el estreno exclusivo de "El Nuevo Imperio: Godzilla y Kong Unen Fuerzas para Vencer a Scar", una aventura épica donde dos titanes legendarios se unen para enfrentar a una nueva amenaza.
+                    
+                    Una Alianza Inesperada contra la Oscuridad
+                    
+                    En "El Nuevo Imperio: Godzilla y Kong Unen Fuerzas para Vencer a Scar", los espectadores serán testigos de una alianza histórica entre dos criaturas icónicas: el imponente Godzilla y el legendario Kong. Juntos, se enfrentarán al malvado Scar, cuyo reinado de terror amenaza con destruir el mundo tal como lo conocemos.</p>
+            </div>
+        </div>
     </div>
 
-    <div class="presentacion">
-        <img src="Imagenes/CabritasHigh.jpg" width="200">
-        <img src="Imagenes/Sala de cine.webp" width="300">
-        <img src="Imagenes/PromoKungfu.jpg " width="500">
-        <img src="Imagenes/elnuevoimperio.webp" width="380">
-        <img src="Imagenes/yerra.jpg" width="400">
-        <h1>Bienvenidos a CineHigh</h1>
-        <p>Fundado en 2023, Cinehigh es un cine ubicado en Rancagua, creado por apasionados del cine para ofrecer una experiencia única que combina tecnología de punta con servicio excepcional.</p>
-        
-        <h2>Misión</h2>
-        <p>Proporcionar una experiencia cinematográfica inolvidable que enriquezca la vida de nuestros visitantes, combinando tecnología, confort y contenido de calidad.</p>
-        
-        <h2>Visión</h2>
-        <p>Ser reconocidos como líderes en entretenimiento cinematográfico, innovando y expandiendo nuestras ofertas para superar expectativas.</p>
-        
-        <h2>Valores</h2>
-        <ul>
-            <p>Innovación</p>
-            <p>Calidad</p>
-            <p>Comunidad</p>
-            <p>Pasión</p>
-        </ul>
-        
-        
-    </div>
+    <!--Fin Noticias-->
+    <!--Inicio Info ALumno-->
 
-
-
-
-
-    <div id="contenedor2">
-        <div class="caja13">
-            <h2>Sobre CineHigh</h2>
-            
-            <ul>
-                <li> <a href="#">Nosotros</a> </li>
-                <li> <a href="#">Redes</a> </li>
-                <li> <a href="#">Salas y formatos</a> </li>
-                <li> <a href="#">Terminos y Condiciones</a> </li>
-            </ul>
-        </div>
-        <div class="caja2">
-            <h2>Redes Sociales</h2>
-            
-            <ul>
-                <li> <a href="#">Instagram: CineHigh</a> </li>
-                <li> <a href="#">Facebook: CineHigh.Chile</a> </li>
-                <li> <a href="#">X: CineHighChile</a> </li>
-                <li> <a href="#">Tiktok: ChineHighChileOficial</a></li>
-            </ul>
-        </div>
-        <div class="caja13">
-            <h2>Contacto</h2>
-            
-            <ul>
-                <li> <a href="#">Preguntas Frecuentas</a> </li>
-                <li> <a href="#">Escribenos</a> </li>
-                <li> <a href="#">Trabaja con nosotros</a> </li>
-                <li> <a href="#">Reimprimir boletas electronicas</a> </li>
-            </ul>
+    <div class="centered-container">
+        <div class="card" style="width: 10rem;">
+            <img src="Imagenes/persona.jpg" class="card-img-top circle-img" alt="Imagen de persona">
+            <div class="card-body">
+              <p class="card-text">Benjamin Gacitua
+                <br>
+                Ingeneria Informatica
+                <br>
+                (TI2031/D-IEI-N3-P1-C4/D Rancagua IEI)
+              </p>
+            </div>
         </div>
     </div>
 
+    <!--Fin info Alumno-->
 
+    <!--Inicio del Footer-->
 
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <div class="pie">
-        <footer>
-            <p>Sitio Desarrollado por: Benjamin Gacitua</p>
-        </footer>
-    </div>    
-
-</body>
-</html>
+    <footer>
+        <nav class="pie">
+          <ul>
+            <a>Asignatura: Programacion Front-End</a>
+          </ul>
+        </nav>
+    </footer>
